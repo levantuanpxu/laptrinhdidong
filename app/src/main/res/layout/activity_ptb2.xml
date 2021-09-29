@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    android:layout_margin="8dp"
+    tools:context=".ptb2">
+
+    <TableRow>
+        <TextView
+            android:text="Giải Phương Trình Bậc 2"
+            android:layout_span="2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="nhập a" android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editTextA"
+            android:hint="nhập a" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="nhap b"  android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editTextB"
+            android:hint="nhập mật khẩu"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="nhập c"  android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editTextC"
+            android:hint="nhập c"
+            />
+    </TableRow>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btnxoa"
+            android:text="Tiếp Tục"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btngiaipt"
+            android:backgroundTint="#291010"
+            android:text="Giải Pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Thoát"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btnthoat"
+            android:backgroundTint="#B60C0C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="ket qua ptb 2:" />
+
+    <TextView
+        android:id="@+id/kq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="" />
+
+</TableLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Maytinh">
+
+    <TextView
+        android:id="@+id/textViewNhapA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập A" />
+
+    <EditText
+        android:id="@+id/editTextNhapA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="A" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Phép tính" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextpheptinh"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:hint="nhập phép tính" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập B" />
+
+    <EditText
+        android:id="@+id/editTextNhapB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="B" />
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonTinh"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Tính" />-->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="+">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/tru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="-">
+
+        </Button>
+
+        <Button
+            android:id="@+id/nhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="*">
+
+        </Button>
+
+        <Button
+            android:id="@+id/chia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="/">
+
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="kết quả" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/kq"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="40sp"-->
+<!--        android:text="" />-->
+
+</LinearLayout>
